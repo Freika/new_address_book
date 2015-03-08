@@ -15,6 +15,11 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'rspec-rails'
   gem 'spring-commands-rspec'
+  gem 'guard-rspec'
+  gem 'guard-teaspoon'
+  gem 'teaspoon'
+  gem 'spring-commands-teaspoon'
+  gem 'phantomjs'
 end
 
 gem 'ember-rails', '~> 0.15'

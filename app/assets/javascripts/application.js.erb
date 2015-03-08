@@ -6,4 +6,10 @@
 //= require_self
 //= require new_address_book
 
-window.NewAddressBook = Ember.Application.create();
+<% if Rails.env.development? %>
+  Ember.LOG_TRANSITIONS = true;
+<% end %>
+
+NewAddressBook = Ember.Application.create();
+
+//= require_tree .
