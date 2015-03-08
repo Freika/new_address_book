@@ -1,3 +1,5 @@
 NewAddressBook.Router.map(function() {
-  this.resource('contacts');
+  this.resource('contacts', function() {
+
+  });
 });
