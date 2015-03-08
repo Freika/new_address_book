@@ -12,6 +12,9 @@ group :development, :test do
   gem 'spring'
   gem 'quiet_assets'
   gem 'meta_request'
+  gem 'factory_girl_rails'
+  gem 'rspec-rails'
+  gem 'spring-commands-rspec'
 end
 
 gem 'ember-rails', '~> 0.15'
